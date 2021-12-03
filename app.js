@@ -41,8 +41,11 @@ function takePhoto() {
     const link = document.createElement("a");
     link.href = data;
     link.setAttribute("download","your screenshort");
+   link.innerHTML = `<img  src="${data}" alt = "screenshot of your image"    />`
     // link.textContent = "download Image"; this will show a download image link ,user will click it and the ss will be downloaded here
     strip.insertBefore(link,strip.firstChild);
+
+
 
 }
 
@@ -50,7 +53,7 @@ video.addEventListener("canplay",paintToCanavas )
 
 //  paintToCanavas()
 // console.log(getVideo());
-getVideo()
+// getVideo()
 
 
 
