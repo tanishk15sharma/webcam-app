@@ -10,6 +10,21 @@ html {
     margin: 2rem auto;
     border-radius: 2px;
 }
+.button-ss{
+    padding: 1rem;
+    background-color: limegreen;
+    margin-left: 45%;
+    display: flex;
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 20%;
+    cursor:grab ;
+    /* margin-top: 20%; */
+}
+.button-ss:hover {
+    /* opacity: 0.5; */
+    background-color: lightgreen;
+}
 
 .photobooth:after {
     content: "";
@@ -17,9 +32,9 @@ html {
     clear: both;
 }
 .photo {
-    /* margin: auto; */
-    /* margin-left: 22rem; */
-    width: 100%  ;
+    margin: auto;
+    margin-left: 30rem;
+    width: 50%  ;
     float: left;
 }
 .player {
