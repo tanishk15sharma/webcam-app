@@ -53,7 +53,7 @@ video.addEventListener("canplay",paintToCanavas )
 
 //  paintToCanavas()
 // console.log(getVideo());
-// getVideo()
+getVideo()
 
 
 

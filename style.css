@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     font-size: 10px;
-    background-color: lightslategray;
+    background-color:lightseagreen;
 }
 
 .photobooth{
@@ -17,7 +17,9 @@ html {
     clear: both;
 }
 .photo {
-    width: 60%;
+    /* margin: auto; */
+    /* margin-left: 22rem; */
+    width: 100%  ;
     float: left;
 }
 .player {
